@@ -1,4 +1,5 @@
-" COLORS
+" VIFM COLORS
+" solarized dark
 " based on: https://github.com/istib/dotfiles/blob/master/vifm/vifm-colors
 
 " Default = -1 = None, can be used for transparency or default color
