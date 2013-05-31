@@ -1,4 +1,6 @@
 Various colorschemes for [vifm](http://vifm.sourceforge.net/).
+- Solarized Dark
+- Zenburn
 
 The solarized-dark theme is based on [istib](https://github.com/istib)'s [version](https://github.com/istib/dotfiles/blob/master/vifm/vifm-colors).
 
