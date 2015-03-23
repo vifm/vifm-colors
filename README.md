@@ -1,6 +1,7 @@
 Various colorschemes for [vifm](http://vifm.sourceforge.net/).
 - Desert
 - Matrix
+- Midnight Commander
 - Solarized Dark
 - Zenburn
 
