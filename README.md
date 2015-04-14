@@ -1,9 +1,10 @@
-Various colorschemes for [vifm](http://vifm.sourceforge.net/).
+Various colorschemes for [vifm](http://vifm.info/).
 - Desert
 - Matrix
 - Midnight Commander
 - Solarized Dark
 - Zenburn
+- Zenburn_1 (juef's version)
 
 The solarized-dark theme is based on [istib](https://github.com/istib)'s [version](https://github.com/istib/dotfiles/blob/master/vifm/vifm-colors).
 
