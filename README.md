@@ -1,5 +1,6 @@
 Various colorschemes for [vifm](http://vifm.info/).
 - Desert
+- G80
 - Matrix
 - Midnight Commander
 - Solarized Dark

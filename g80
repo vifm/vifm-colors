@@ -1,0 +1,27 @@
+" G80
+
+" Reset all styles first
+highlight clear
+
+highlight Border	cterm=none	ctermfg=237	ctermbg=237
+
+highlight TopLine	cterm=none	ctermfg=188	ctermbg=237
+highlight TopLineSel	cterm=underline	ctermfg=188	ctermbg=237
+
+highlight Win		cterm=none	ctermfg=188	ctermbg=237
+highlight Directory	cterm=none	ctermfg=188	ctermbg=237
+highlight CurrLine	cterm=none	ctermfg=188	ctermbg=236
+highlight OtherLine	cterm=none	ctermfg=247	ctermbg=237
+highlight Selected	cterm=none	ctermfg=188	ctermbg=238
+
+highlight StatusLine	cterm=none	ctermfg=188	ctermbg=235
+highlight WildMenu	cterm=none	ctermfg=188	ctermbg=238
+highlight CmdLine	cterm=none	ctermfg=188	ctermbg=237
+highlight ErrorMsg	cterm=none	ctermfg=188	ctermbg=237
+
+highlight Executable	cterm=none	ctermfg=188	ctermbg=237
+highlight Link		cterm=none	ctermfg=188	ctermbg=237
+highlight BrokenLink	cterm=none	ctermfg=188	ctermbg=237
+highlight Device	cterm=none	ctermfg=188	ctermbg=237
+highlight Fifo		cterm=none	ctermfg=188	ctermbg=237
+highlight Socket	cterm=none	ctermfg=188	ctermbg=237
