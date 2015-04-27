@@ -4,26 +4,26 @@
 " Reset all styles first
 highlight clear
 
-highlight Border cterm=none ctermfg=235 ctermbg=default
+highlight Border	cterm=none	ctermfg=235	ctermbg=default
 
-highlight Win cterm=none ctermfg=188 ctermbg=237
-highlight Directory cterm=none ctermfg=108 ctermbg=default
-highlight CurrLine cterm=none ctermfg=223 ctermbg=235
-highlight OtherLine cterm=none ctermfg=247 ctermbg=default
-highlight Selected cterm=none ctermfg=116 ctermbg=238
+highlight TopLine	cterm=none	ctermfg=108	ctermbg=235
+highlight TopLineSel	cterm=bold	ctermfg=186	ctermbg=235
 
-highlight StatusLine cterm=bold ctermfg=144 ctermbg=236
-highlight ErrorMsg cterm=bold ctermfg=115 ctermbg=default
-highlight WildMenu cterm=bold,reverse ctermfg=144 ctermbg=235
-highlight CmdLine cterm=none ctermfg=188 ctermbg=237
+highlight Win		cterm=none	ctermfg=188	ctermbg=237
+highlight Directory	cterm=none	ctermfg=108	ctermbg=default
+highlight CurrLine	cterm=none	ctermfg=223	ctermbg=235
+highlight OtherLine	cterm=none	ctermfg=247	ctermbg=default
+highlight Selected	cterm=none	ctermfg=116	ctermbg=238
 
-highlight TopLine cterm=none ctermfg=108 ctermbg=235
-highlight TopLineSel cterm=bold ctermfg=186 ctermbg=235
+highlight JobLine	cterm=bold	ctermfg=116	ctermbg=238
+highlight StatusLine	cterm=bold	ctermfg=144	ctermbg=236
+highlight ErrorMsg	cterm=bold	ctermfg=115	ctermbg=default
+highlight WildMenu	cterm=bold	ctermfg=235	ctermbg=144
+highlight CmdLine	cterm=none	ctermfg=188	ctermbg=237
 
-highlight Executable cterm=none ctermfg=172 ctermbg=default
-highlight Link cterm=none ctermfg=142 ctermbg=default
-highlight BrokenLink cterm=none ctermfg=174 ctermbg=default
-
-highlight Device cterm=none ctermfg=228 ctermbg=default
-highlight Fifo cterm=none ctermfg=109 ctermbg=default
-highlight Socket cterm=none ctermfg=110 ctermbg=default
+highlight Executable	cterm=none	ctermfg=172	ctermbg=default
+highlight Link		cterm=none	ctermfg=142	ctermbg=default
+highlight BrokenLink	cterm=none	ctermfg=174	ctermbg=default
+highlight Device	cterm=none	ctermfg=228	ctermbg=default
+highlight Fifo		cterm=none	ctermfg=109	ctermbg=default
+highlight Socket	cterm=none	ctermfg=110	ctermbg=default
