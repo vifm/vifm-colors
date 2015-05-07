@@ -2,6 +2,8 @@
 " by Michael jubalh Vetter
 " https://github.com/jubalh/vifm-colors
 
+highlight clear
+
 highlight Win             cterm=none ctermfg=green    ctermbg=black
 
 highlight TopLine         cterm=none ctermfg=green       ctermbg=none
