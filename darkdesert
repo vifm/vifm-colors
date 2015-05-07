@@ -1,0 +1,24 @@
+" Dark Desert
+" by Karol M. Langner
+" based on Desert by Michael jubalh Vetter
+" https://github.com/vifm/vifm-colors
+
+highlight clear
+
+highlight Win cterm=none ctermfg=220 ctermbg=233
+highlight Directory cterm=bold ctermfg=77 ctermbg=default
+highlight Link cterm=bold ctermfg=239 ctermbg=default
+highlight BrokenLink cterm=bold ctermfg=red ctermbg=default
+highlight Socket cterm=bold ctermfg=24 ctermbg=default
+highlight Device cterm=bold ctermfg=31 ctermbg=default
+highlight Fifo cterm=bold ctermfg=31 ctermbg=default
+highlight Executable cterm=bold ctermfg=green ctermbg=default
+highlight Selected cterm=bold ctermfg=magenta ctermbg=default
+highlight CurrLine cterm=bold ctermfg=131 ctermbg=228
+highlight TopLine cterm=none ctermfg=124 ctermbg=235
+highlight TopLineSel cterm=bold ctermfg=124 ctermbg=235
+highlight StatusLine cterm=bold ctermfg=124 ctermbg=235
+highlight WildMenu cterm=underline,reverse ctermfg=white ctermbg=black
+highlight CmdLine cterm=none ctermfg=217 ctermbg=black
+highlight ErrorMsg cterm=none ctermfg=7 ctermbg=1
+highlight Border cterm=none ctermfg=black ctermbg=235
