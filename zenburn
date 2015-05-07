@@ -1,3 +1,5 @@
+highlight clear
+
 highlight Win cterm=none ctermfg=245 ctermbg=234
 highlight Directory cterm=bold ctermfg=166 ctermbg=234
 highlight Link cterm=bold ctermfg=yellow ctermbg=234

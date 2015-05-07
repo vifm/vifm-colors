@@ -11,13 +11,13 @@ The solarized-dark theme is based on [istib](https://github.com/istib)'s [versio
 
 # Get it #
 If you would like to have just one theme you could download it via wget, for example:
-`wget -P ~/.vifm/colors https://raw.githubusercontent.com/jubalh/vifm-colors/master/solarized-dark`
+`wget -P ~/.vifm/colors https://raw.githubusercontent.com/vifm/vifm-colors/master/solarized-dark`
 
 If you prefer to download all themes you could set it up with git, and stay up to date.
 
 `rm -rf ~/.vifm/colors`
 
-`git clone https://github.com/jubalh/vifm-colors ~/.vifm/colors`
+`git clone https://github.com/vifm/vifm-colors ~/.vifm/colors`
 
 To check for updates just type `git pull` in `~/.vifm/colors`.
 

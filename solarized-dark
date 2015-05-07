@@ -20,6 +20,8 @@
 " none
 
 
+highlight clear
+
 highlight Win             cterm=none ctermfg=default    ctermbg=none
 
 highlight TopLine         cterm=none ctermfg=blue       ctermbg=none

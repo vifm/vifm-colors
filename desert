@@ -2,6 +2,8 @@
 " by Michael jubalh Vetter
 " https://github.com/jubalh/vifm-colors
 
+highlight clear
+
 highlight Win cterm=none ctermfg=220 ctermbg=237
 highlight Directory cterm=bold ctermfg=77 ctermbg=default
 highlight Link cterm=bold ctermfg=239 ctermbg=default

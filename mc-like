@@ -1,6 +1,8 @@
 " mimicking midnight commander
 " by Petteri Knihti
 
+highlight clear
+
 highlight Win         cterm=none    ctermfg=white    ctermbg=blue
  
 highlight CurrLine    cterm=none    ctermfg=black    ctermbg=cyan
