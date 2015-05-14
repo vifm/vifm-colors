@@ -18,7 +18,17 @@
 " Cyan = 6
 " White = 7
 
-" Available style values (some of them can be combined):
+" Light versions of colors are also available (set bold attribute):
+" LightBlack
+" LightRed
+" LightGreen
+" LightYellow
+" LightBlue
+" LightMagenta
+" LightCyan
+" LightWhite
+
+" Available attributes (some of them can be combined):
 " bold
 " underline
 " reverse or inverse
@@ -31,7 +41,9 @@
 " xterm-256color) from /usr/lib/terminfo/; you can check current number
 " of colors in your terminal with tput colors command)
 
-" highlight group cterm=style ctermfg=foreground_color ctermbg=background_color
+" highlight group cterm=attrs ctermfg=foreground_color ctermbg=background_color
+
+highlight clear
 
 highlight Win cterm=none ctermfg=white ctermbg=black
 highlight Directory cterm=bold ctermfg=cyan ctermbg=default
@@ -50,3 +62,4 @@ highlight WildMenu cterm=underline,reverse ctermfg=white ctermbg=black
 highlight CmdLine cterm=none ctermfg=white ctermbg=black
 highlight ErrorMsg cterm=none ctermfg=red ctermbg=black
 highlight Border cterm=none ctermfg=black ctermbg=white
+highlight JobLine cterm=bold,reverse ctermfg=black ctermbg=white
