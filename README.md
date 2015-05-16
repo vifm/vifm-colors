@@ -1,4 +1,7 @@
 Various colorschemes for [vifm](http://vifm.info/).
+- Astrell
+- Dark Desert
+- Default
 - Desert
 - G80
 - Matrix
