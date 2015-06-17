@@ -25,7 +25,7 @@ If you prefer to download all themes you could set it up with git, and stay up t
 To check for updates just type `git pull` in `~/.vifm/colors`.
 
 # Preview them #
-A preview of all color themes contained in this repository are available at [this vifm site](http://next.vifm.info/colorschemes.shtml).
+A preview of all color themes contained in this repository are available at [this vifm site](http://vifm.info/colorschemes.shtml).
 
 # Set them #
 Load with `:colorscheme theme-name` in vifm, or write `colorscheme theme-name` in vifm's configuration file `~/.vifm/vifmrc`.
