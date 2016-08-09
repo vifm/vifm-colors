@@ -6,6 +6,7 @@ Various colorschemes for [vifm](http://vifm.info/).
 - G80
 - Matrix
 - Midnight Commander
+- ph
 - Solarized Dark
 - Zenburn
 - Zenburn_1 (juef's version)
