@@ -1,12 +1,13 @@
 Various colorschemes for [vifm](http://vifm.info/).
 - Astrell (by astrell)
-- Dark Desert (by langner)
+- Darkdesert (by langner)
 - Default
 - Desert
 - G80
 - Matrix
 - Midnight Commander
 - ph (by pihao)
+- reicheltd-light (by reicheltd)
 - Solarized Dark
 - Zenburn
 - Zenburn_1 (by frgm)
