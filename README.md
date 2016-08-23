@@ -1,19 +1,30 @@
 Various colorschemes for [vifm](http://vifm.info/).
-- Astrell
-- Dark Desert
+- Astrell (by astrell)
+- Dark Desert (by langner)
 - Default
 - Desert
 - G80
 - Matrix
 - Midnight Commander
-- ph
+- ph (by pihao)
 - Solarized Dark
 - Zenburn
-- Zenburn_1 (juef's version)
+- Zenburn_1 (by frgm)
 
 The solarized-dark theme is based on [istib](https://github.com/istib)'s [version](https://github.com/istib/dotfiles/blob/master/vifm/vifm-colors).
 
 # Get them #
+
+## Distribution
+Some distributions offer a package for vifm color schemes. In this case you can install them easily using your package manager.
+
+### openSUSE
+
+```
+zypper in vifm-colors
+```
+
+## Manual
 If you would like to have just one theme you could download it via wget, for example:
 `wget -P ~/.vifm/colors https://raw.githubusercontent.com/vifm/vifm-colors/master/solarized-dark`
 
@@ -31,4 +42,4 @@ A preview of all color themes contained in this repository are available at [thi
 # Set them #
 Load with `:colorscheme theme-name` in vifm, or write `colorscheme theme-name` in vifm's configuration file `~/.vifm/vifmrc`.
 
-If you have any color themes that are not in this repo, feel free to fork, add it and send me a pull request!
+If you have any color themes that are not in this repo, feel free to fork, add it and send a pull request!
