@@ -37,6 +37,8 @@ If you prefer to download all themes you could set it up with git, and stay up t
 
 To check for updates just type `git pull` in `~/.config/vifm/colors`.
 
+*Note:* replace `~/.config/vifm` with `~/.vifm` in commands above if you store your configuration there.
+
 # Preview #
 A preview of all color themes contained in this repository are available at [this vifm site](https://vifm.info/colorschemes.shtml).
 
