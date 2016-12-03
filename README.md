@@ -31,16 +31,16 @@ If you would like to have just one theme you could download it via wget, for exa
 
 If you prefer to download all themes you could set it up with git, and stay up to date.
 
-`rm -rf ~/.vifm/colors`
+`rm -rf ~/.config/vifm/colors`
 
-`git clone https://github.com/vifm/vifm-colors ~/.vifm/colors`
+`git clone https://github.com/vifm/vifm-colors ~/.config/vifm/colors`
 
-To check for updates just type `git pull` in `~/.vifm/colors`.
+To check for updates just type `git pull` in `~/.config/vifm/colors`.
 
 # Preview #
 A preview of all color themes contained in this repository are available at [this vifm site](http://vifm.info/colorschemes.shtml).
 
 # Set a theme #
-Load with `:colorscheme theme-name` in vifm, or write `colorscheme theme-name` in vifm's configuration file `~/.vifm/vifmrc`.
+Load with `:colorscheme theme-name` in vifm, or write `colorscheme theme-name` in vifm's configuration file `~/.config/vifm/vifmrc`.
 
 If you have any color themes that are not in this repo, feel free to fork, add it and send a pull request!
