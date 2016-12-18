@@ -1,0 +1,31 @@
+" snowwhite
+" Author: Jochen Schweizer
+" https://github.com/durcheinandr/vifm-colors
+
+highlight clear
+
+highlight   SuggestBox   cterm=none                ctermfg=16    ctermbg=231
+highlight   Win          cterm=none                ctermfg=16    ctermbg=231
+highlight   Directory    cterm=bold                ctermfg=16    ctermbg=231
+highlight   Link         cterm=none                ctermfg=16    ctermbg=231
+
+highlight   BrokenLink   cterm=bold                ctermfg=196   ctermbg=231
+highlight   Socket       cterm=none                ctermfg=16    ctermbg=231
+highlight   Device       cterm=none                ctermfg=16    ctermbg=231
+
+highlight   Fifo         cterm=none                ctermfg=16    ctermbg=231
+highlight   Executable   cterm=none                ctermfg=16    ctermbg=231
+highlight   Selected     cterm=none                ctermfg=208   ctermbg=231
+
+highlight   CurrLine     cterm=none                ctermfg=231   ctermbg=208
+highlight   TopLine      cterm=none                ctermfg=16    ctermbg=255
+highlight   TopLineSel   cterm=none                ctermfg=231   ctermbg=16
+
+highlight   StatusLine   cterm=bold                ctermfg=16    ctermbg=255
+highlight   WildMenu     cterm=underline,reverse   ctermfg=16    ctermbg=231
+highlight   CmdLine      cterm=none                ctermfg=16    ctermbg=231
+
+highlight   ErrorMsg     cterm=bold                ctermfg=196   ctermbg=231
+highlight   Border       cterm=none                ctermfg=16    ctermbg=255
+
+
