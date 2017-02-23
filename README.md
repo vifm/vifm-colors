@@ -8,6 +8,7 @@ Various colorschemes for [vifm](https://vifm.info/).
 - mc-like (by Petteri Knihti)
 - ph (by pihao)
 - reicheltd-light (by reicheltd)
+- semidarkdesert (by clausED)
 - snowwhite (by durcheinandr)
 - solarized-dark
 - zenburn
