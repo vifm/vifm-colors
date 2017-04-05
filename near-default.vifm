@@ -1,0 +1,87 @@
+" vim: filetype=vifm :
+
+" xterm color customization:
+"
+" ! regular (not bold) red
+" XTerm*color1: #ff3030
+" ! regular (not bold) green
+" XTerm*color2: #70dd70
+" ! regular (not bold) yellow
+" XTerm*color3: #f0f000
+" ! regular (not bold) blue
+" XTerm*color4: #6060dd
+" ! bold red
+" XTerm*color9: #ff8080
+" ! bold green
+" XTerm*color10: #20dd20
+" ! bold yellow
+" XTerm*color11: #e0e000
+" ! bold blue
+" XTerm*color12: #a8a8ff
+
+highlight clear
+highlight Win        cterm=none                   ctermfg=white   ctermbg=black
+highlight BrokenLink cterm=bold                   ctermfg=red     ctermbg=default
+highlight Socket     cterm=bold                   ctermfg=magenta ctermbg=default
+highlight Device     cterm=bold,reverse           ctermfg=red     ctermbg=default
+highlight Fifo       cterm=bold,reverse           ctermfg=cyan    ctermbg=default
+highlight CurrLine   cterm=reverse,bold           ctermfg=default ctermbg=default
+highlight TopLine    cterm=none                   ctermfg=black   ctermbg=white
+highlight TopLineSel cterm=underline              ctermfg=black   ctermbg=default
+highlight StatusLine cterm=none                   ctermfg=black   ctermbg=white
+highlight WildMenu   cterm=underline,bold,reverse ctermfg=yellow  ctermbg=black
+highlight CmdLine    cterm=bold                   ctermfg=white   ctermbg=black
+highlight ErrorMsg   cterm=bold                   ctermfg=white   ctermbg=red
+highlight Border     cterm=none                   ctermfg=white   ctermbg=black
+highlight OtherLine  cterm=reverse                ctermfg=234     ctermbg=white
+highlight SuggestBox cterm=bold,reverse           ctermfg=cyan    ctermbg=black
+
+" no 256-color palette on Windows
+if $OS == 'Windows_NT'
+    highlight Directory   cterm=bold ctermfg=cyan    ctermbg=default
+    highlight Link        cterm=bold ctermfg=yellow  ctermbg=default
+    highlight Executable  cterm=bold ctermfg=green   ctermbg=default
+    highlight Selected    cterm=bold ctermfg=magenta ctermbg=default
+    finish
+endif
+
+highlight Directory   cterm=bold ctermfg=123     ctermbg=default
+highlight Link        cterm=bold ctermfg=229     ctermbg=default
+highlight Executable  cterm=bold ctermfg=119     ctermbg=default
+highlight Selected    cterm=bold ctermfg=213     ctermbg=default
+
+" software documentation
+highlight {COPYRIGHT,COPYING*,BUGS,ChangeLog*,FAQ,INSTALL*,LICEN[CS]E,NEWS,
+          \README*,AUTHORS,TODO,THANKS}
+        \ cterm=none ctermfg=187 ctermbg=default
+" build system files
+highlight {Makefile,Makefile.am,Makefile.in,Makefile.win,*.mak,*.mk,
+          \CMakeLists.txt}
+        \ cterm=none ctermfg=121 ctermbg=default
+" archives
+highlight {*.7z,*.ace,*.arj,*.bz2,*.cpio,*.deb,*.dz,*.gz,*.jar,*.lzh,*.lzma,
+          \*.rar,*.rpm,*.rz,*.tar,*.taz,*.tb2,*.tbz,*.tbz2,*.tgz,*.tlz,*.trz,
+          \*.txz,*.tz,*.tz2,*.xz,*.z,*.zip,*.zoo}
+        \ cterm=none ctermfg=215 ctermbg=default
+" documents
+highlight {*.djvu,*.htm,*.html,*.shtml,*.css,*.markdown,*.md,*[^0-9].[1-9],
+          \*.mkd,*.org,*.pandoc,*.pdc,*.pdf,*.epub,*.fb2,*.tex,*.txt,*.xhtml,
+          \*.xml,*.pptx,*.ppt,*.doc,*.docx,*.xls,*.xls[mx]}
+        \ cterm=none ctermfg=217 ctermbg=default
+" media
+highlight {*.aac,*.anx,*.asf,*.au,*.avi,*.ts,*.axa,*.axv,*.divx,*.flac,*.m2a,
+          \*.m2v,*.m4a,*.m4p,*.m4v,*.mid,*.midi,*.mka,*.mkv,*.mov,*.mp3,*.mp4,
+          \*.flv,*.mp4v,*.mpc,*.mpeg,*.mpg,*.nuv,*.oga,*.ogg,*.ogv,*.ogx,*.pbm,
+          \*.pgm,*.qt,*.ra,*.ram,*.rm,*.spx,*.vob,*.wav,*.wma,*.wmv,*.xvid,
+          \*.ac3}
+        \ cterm=none ctermfg=49 ctermbg=default
+" images
+highlight {*.bmp,*.gif,*.jpeg,*.jpg,*.ico,*.png,*.ppm,*.svg,*.svgz,*.tga,*.tif,
+          \*.tiff,*.xbm,*.xcf,*.xpm,*.xspf,*.xwd}
+        \ cterm=none ctermfg=117 ctermbg=default
+" executables
+highlight {*.sh,*.bash,*.bat,*.btm,*.cmd,*.com,*.dll,*.exe,*.run,*.msu,*.msi}
+        \ cterm=none ctermfg=77 ctermbg=default
+" source code
+highlight {*.patch,*.diff,*.py,*.[ch]pp,*.mk,*.c,*.h,*.[ch]pp,*.cc,*.hs,*.php}
+        \ cterm=none ctermfg=193 ctermbg=default

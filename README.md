@@ -6,6 +6,7 @@ Various colorschemes for [vifm](https://vifm.info/).
 - g80
 - matrix
 - mc-like (by Petteri Knihti)
+- near-default
 - ph (by pihao)
 - reicheltd-light (by reicheltd)
 - semidarkdesert (by clausED)
