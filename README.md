@@ -4,6 +4,7 @@ Various colorschemes for [vifm](https://vifm.info/).
 - Default
 - desert
 - g80
+- lucius (by francogonzaga)
 - matrix
 - mc-like (by Petteri Knihti)
 - near-default

@@ -1,0 +1,24 @@
+" lucius
+" by francogonzaga
+"
+" https://gist.github.com/francogonzaga/5509523
+"
+" This color scheme is loosely based on the lucius color scheme for vim
+
+highlight Win cterm=none ctermfg=250 ctermbg=236
+highlight Directory cterm=bold ctermfg=4 ctermbg=236
+highlight Link cterm=bold ctermfg=yellow ctermbg=236
+highlight BrokenLink cterm=bold ctermfg=red ctermbg=none
+highlight Socket cterm=bold ctermfg=magenta ctermbg=black
+highlight Device cterm=bold ctermfg=red ctermbg=black
+highlight Fifo cterm=bold ctermfg=cyan ctermbg=none
+highlight Executable cterm=bold ctermfg=112 ctermbg=236
+highlight Selected cterm=none ctermfg=236 ctermbg=208
+highlight CurrLine cterm=bold ctermfg=251 ctermbg=240
+highlight TopLine cterm=none ctermfg=black ctermbg=240
+highlight TopLineSel cterm=none ctermfg=250 ctermbg=12
+highlight StatusLine cterm=bold ctermfg=255 ctermbg=12
+highlight WildMenu cterm=underline,reverse ctermfg=white ctermbg=black
+highlight CmdLine cterm=none ctermfg=white ctermbg=240
+highlight ErrorMsg cterm=none ctermfg=250 ctermbg=124
+highlight Border cterm=none ctermfg=236 ctermbg=236
