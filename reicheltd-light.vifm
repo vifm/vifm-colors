@@ -2,6 +2,8 @@
 
 " Author: Daniel R. (a.k.a. reicheltd)
 
+highlight clear
+
 highlight Win cterm=none ctermfg=236 ctermbg=255
 highlight Directory cterm=bold ctermfg=21 ctermbg=255
 highlight Link cterm=bold ctermfg=39 ctermbg=default
