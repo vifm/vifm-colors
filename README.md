@@ -7,6 +7,7 @@ Various colorschemes for [vifm](https://vifm.info/).
 - lucius (by francogonzaga)
 - matrix
 - mc-like (by Petteri Knihti)
+- molokai (by Miguel Madrid Mencía)
 - near-default
 - ph (by pihao)
 - reicheltd-light (by reicheltd)
