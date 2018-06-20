@@ -1,0 +1,45 @@
+" VIFM COLORS
+" dracula
+" based on: https://github.com/istib/dotfiles/blob/master/vifm/vifm-colors
+
+" Default = -1 = None, can be used for transparency or default color
+" Black = 0
+" Red = 1
+" Green = 2
+" Yellow = 3
+" Blue = 4
+" Magenta = 5
+" Cyan = 6
+" White = 7
+
+" STYLES
+" bold
+" underline
+" reverse or inverse
+" standout
+" none
+
+
+highlight clear
+
+highlight Win             cterm=none ctermfg=default    ctermbg=none
+
+highlight TopLine         cterm=none ctermfg=blue       ctermbg=none
+highlight TopLineSel      cterm=none ctermfg=magenta    ctermbg=none
+highlight StatusLine      cterm=none ctermfg=blue       ctermbg=none
+highlight Border          cterm=none ctermfg=blue       ctermbg=none
+
+highlight Selected        cterm=bold ctermfg=magenta    ctermbg=default
+highlight CurrLine        cterm=bold ctermfg=236    ctermbg=blue
+
+highlight WildMenu        cterm=none,reverse ctermfg=blue ctermbg=236
+highlight CmdLine         cterm=none ctermfg=255 ctermbg=236
+highlight ErrorMsg        cterm=none ctermfg=red ctermbg=black
+
+highlight Directory       cterm=none ctermfg=blue ctermbg=default
+highlight Link            cterm=none ctermfg=cyan ctermbg=default
+highlight BrokenLink      cterm=none ctermfg=red ctermbg=default
+highlight Socket          cterm=none ctermfg=magenta ctermbg=black
+highlight Device          cterm=none ctermfg=red ctermbg=default
+highlight Fifo            cterm=none ctermfg=yellow ctermbg=black
+highlight Executable      cterm=none ctermfg=green ctermbg=default
