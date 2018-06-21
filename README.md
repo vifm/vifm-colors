@@ -3,6 +3,7 @@ Various colorschemes for [vifm](https://vifm.info/).
 - darkdesert (by langner)
 - Default
 - desert
+- dracula (by EgZvor)
 - g80
 - lucius (by francogonzaga)
 - matrix

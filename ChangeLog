@@ -1,3 +1,15 @@
+0.9 to current
+   Add new color scheme: dracula (Thanks EgZvor)
+   Add new color scheme: molokai (Thanks mimadrid)
+   Add missing `:highlight clear` to:
+    * lucius
+    * reicheltd-light
+
+   Update near-default scheme:
+    * Add CmpMismatch (since vifm v0.9).
+    * Add one more document type: mobi.
+    * Support change of terminal background.
+
 0.8.2 to 0.9
     Add new color scheme: lucius (Thanks francogonzaga)
     Add new color scheme: SemiDarkDesert (Thanks clausED)
