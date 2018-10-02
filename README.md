@@ -1,4 +1,6 @@
-Various colorschemes for [vifm](https://vifm.info/).
+# vifm-colors
+
+Various colorschemes for [vifm](https://vifm.info/):
 - astrell (by astrell)
 - darkdesert (by langner)
 - Default
@@ -20,18 +22,18 @@ Various colorschemes for [vifm](https://vifm.info/).
 
 The solarized-dark theme is based on [istib](https://github.com/istib)'s [version](https://github.com/istib/dotfiles/blob/master/vifm/vifm-colors).
 
-# Installation #
+## Installation
 
-## Distribution
+### Distribution
 Some distributions offer a package for vifm color schemes. In this case you can install them easily using your package manager.
 
-### openSUSE
+#### openSUSE
 
 ```
 zypper in vifm-colors
 ```
 
-## Manual
+### Manual
 If you would like to have just one theme you could download it via wget, for example:
 `wget -P ~/.vifm/colors https://raw.githubusercontent.com/vifm/vifm-colors/master/solarized-dark`
 
@@ -45,10 +47,10 @@ To check for updates just type `git pull` in `~/.config/vifm/colors`.
 
 *Note:* replace `~/.config/vifm` with `~/.vifm` in commands above if you store your configuration there.
 
-# Preview #
-A preview of all color themes contained in this repository are available at [this vifm site](https://vifm.info/colorschemes.shtml).
+## Preview
+A preview of all color themes contained in this repository are available at [the official vifm site](https://vifm.info/colorschemes.shtml).
 
-# Set a theme #
+## Set a theme
 Load with `:colorscheme theme-name` in vifm, or write `colorscheme theme-name` in vifm's configuration file `~/.config/vifm/vifmrc`.
 
 If you have any color themes that are not in this repo, feel free to fork, add it and send a pull request!
