@@ -35,7 +35,8 @@ zypper in vifm-colors
 
 ### Manual
 If you would like to have just one theme you could download it via wget, for example:
-`wget -P ~/.vifm/colors https://raw.githubusercontent.com/vifm/vifm-colors/master/solarized-dark`
+
+`wget -P ~/.vifm/colors https://raw.githubusercontent.com/vifm/vifm-colors/master/solarized-dark.vifm`
 
 If you prefer to download all themes you could set it up with git, and stay up to date.
 
