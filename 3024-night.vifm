@@ -1,0 +1,29 @@
+" 3024 (night)
+" by puven12
+"
+" This colorscheme is based on 3024-Night colorscheme for gnome-terminal
+" by Mayccoll
+
+highlight clear
+
+highlight Win cterm=none ctermfg=145 ctermbg=16
+highlight Directory cterm=bold ctermfg=blue ctermbg=default
+highlight Executable cterm=bold ctermfg=164 ctermbg=default
+highlight BrokenLink cterm=bold ctermfg=red ctermbg=35
+highlight Socket cterm=underline ctermfg=254 ctermbg=16
+highlight Device cterm=underline ctermfg=11 ctermbg=16
+highlight Fifo cterm=underline ctermfg=38 ctermbg=16
+highlight Link cterm=bold ctermfg=132 ctermbg=default
+highlight Selected cterm=none ctermfg=white ctermbg=156
+highlight CurrLine cterm=reverse
+highlight TopLine cterm=none ctermfg=default ctermbg=69
+highlight TopLineSel cterm=bold ctermfg=255 ctermbg=default
+highlight StatusLine cterm=none ctermfg=197 ctermbg=229
+highlight WildMenu cterm=underline,reverse ctermfg=255 ctermbg=black
+highlight CmdLine cterm=none ctermfg=74 ctermbg=16
+highlight ErrorMsg cterm=none ctermfg=234 ctermbg=203
+highlight Border cterm=none ctermfg=default ctermbg=16
+highlight JobLine cterm=bold,reverse ctermfg=black ctermbg=255
+highlight SuggestBox cterm=bold ctermfg=default ctermbg=default
+highlight CmpMismatch cterm=bold ctermfg=red ctermbg=35
+highlight AuxWin cterm=bold,underline,reverse,standout ctermfg=default ctermbg=default
