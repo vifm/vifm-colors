@@ -7,7 +7,7 @@ Various colorschemes for [vifm](https://vifm.info/):
 - desert
 - dracula (by EgZvor)
 - g80
-- gruvbox
+- gruvbox (by laur89)
 - iceberg (by puven12)
 - lucius (by francogonzaga)
 - matrix
