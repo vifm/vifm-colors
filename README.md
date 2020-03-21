@@ -14,6 +14,7 @@ Various colorschemes for [vifm](https://vifm.info/):
 - mc-like (by Petteri Knihti)
 - molokai (by Miguel Madrid Mencía)
 - near-default
+- onedark (by mroavi)
 - ph (by pihao)
 - reicheltd-light (by reicheltd)
 - semidarkdesert (by clausED)
