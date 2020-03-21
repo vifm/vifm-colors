@@ -1,4 +1,4 @@
-" gruvbox color scheme approximation for vifm
+" onedark color scheme for vifm
 
 " Reset all styles first
 highlight clear
@@ -9,7 +9,6 @@ highlight TopLine	cterm=none	ctermfg=002	ctermbg=015
 highlight TopLineSel	cterm=bold	ctermfg=002	ctermbg=015
 
 highlight Win		cterm=none	ctermfg=250	ctermbg=default
-"highlight OtherWin  cterm=none	ctermfg=223	ctermbg=236
 highlight Directory	cterm=bold	ctermfg=004	ctermbg=default
 highlight CurrLine	cterm=bold,inverse	ctermfg=default	ctermbg=default
 highlight OtherLine	cterm=bold	ctermfg=default	ctermbg=default
