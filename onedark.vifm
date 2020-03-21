@@ -3,9 +3,9 @@
 " Reset all styles first
 highlight clear
 
-highlight Border	cterm=none	ctermfg=035	ctermbg=015
+highlight Border	cterm=none	ctermfg=035	ctermbg=default
 
-highlight TopLine	cterm=none	ctermfg=002	ctermbg=015
+highlight TopLine	cterm=none	ctermfg=002	ctermbg=default
 highlight TopLineSel	cterm=bold	ctermfg=002	ctermbg=015
 
 highlight Win		cterm=none	ctermfg=250	ctermbg=default
