@@ -15,9 +15,9 @@ highlight OtherLine	cterm=bold	ctermfg=default	ctermbg=default
 highlight Selected	cterm=none	ctermfg=003	ctermbg=008
 
 highlight JobLine	cterm=bold	ctermfg=116	ctermbg=238
-highlight StatusLine	cterm=bold	ctermfg=002	ctermbg=015
+highlight StatusLine	cterm=none	ctermfg=250	ctermbg=015
 highlight ErrorMsg	cterm=bold	ctermfg=001	ctermbg=default
-highlight WildMenu	cterm=bold	ctermfg=015	ctermbg=002
+highlight WildMenu	cterm=bold	ctermfg=015	ctermbg=250
 highlight CmdLine	cterm=none	ctermfg=007	ctermbg=default
 
 highlight Executable	cterm=bold	ctermfg=002	ctermbg=default
