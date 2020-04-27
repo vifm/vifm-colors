@@ -1,0 +1,58 @@
+" VIFM COLORS
+" solarized light
+" based on: https://github.com/altercation/vim-colors-solarized/blob/master/colors/solarized.vim
+
+" default = -1 = None, can be used for transparency or default color
+" black = 0
+" red = 1
+" green = 2
+" yellow = 3
+" blue = 4
+" magenta = 5
+" cyan = 6
+" white = 7
+
+"elseif g:solarized_termcolors != 256 && &t_Co >= 16
+"let s:vmode       = "cterm"
+"let s:base03      = "8"
+"let s:base02      = "0"
+"let s:base01      = "10"
+"let s:base00      = "11"
+"let s:base0       = "12"
+"let s:base1       = "14"
+"let s:base2       = "7"
+"let s:base3       = "15"
+"let s:yellow      = "3"
+"let s:orange      = "9"
+"let s:red         = "1"
+"let s:magenta     = "5"
+"let s:violet      = "13"
+"let s:blue        = "4"
+"let s:cyan        = "6"
+"let s:green       = "2"
+
+highlight clear
+
+highlight Win             cterm=none ctermfg=default    ctermbg=none
+highlight OtherWin        cterm=none ctermfg=default    ctermbg=white
+
+highlight TopLine         cterm=none ctermfg=blue       ctermbg=white
+highlight TopLineSel      cterm=none,underline ctermfg=blue       ctermbg=15
+highlight StatusLine      cterm=none ctermfg=12       ctermbg=white
+highlight Border          cterm=none ctermfg=blue       ctermbg=white
+
+highlight Selected        cterm=reverse ctermfg=14    ctermbg=15
+highlight CurrLine        cterm=none ctermbg=white
+
+highlight WildMenu        cterm=underline,reverse ctermfg=11 ctermbg=white
+highlight CmdLine         cterm=none ctermfg=11 ctermbg=15
+highlight ErrorMsg        cterm=none ctermfg=red ctermbg=white
+
+highlight Directory       cterm=none ctermfg=blue ctermbg=default
+highlight Link            cterm=none ctermfg=magenta ctermbg=default
+highlight BrokenLink      cterm=bold ctermfg=red ctermbg=default
+highlight Socket          cterm=none ctermfg=violet ctermbg=default
+highlight Device          cterm=none ctermfg=green ctermbg=default
+highlight Fifo            cterm=none ctermfg=cyan ctermbg=default
+highlight Executable      cterm=none ctermfg=red ctermbg=default
+
