@@ -21,6 +21,7 @@ Various colorschemes for [vifm](https://vifm.info/):
 - semidarkdesert (by clausED)
 - snowwhite (by durcheinandr)
 - solarized-dark
+- solarized-light (by ayroblu)
 - zenburn
 - zenburn_1 (by frgm)
 
