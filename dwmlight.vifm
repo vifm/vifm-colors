@@ -1,0 +1,74 @@
+" dwmlight
+" Author: SaeidSaati
+" I suggest you to use PaperColor colorscheme in vim/nvim, then this theme will match with it
+" SEE THIS WEBSITE: https://www.calmar.ws/vim/256-xterm-24bit-rgb-color-chart.html
+" https://github.com/vifm/vifm-colors 
+
+" =============================
+" The standard ncurses colors are:
+" =============================
+" Default = -1 = None, can be used for transparency or default color
+" Black = 0 = 16
+" Red = 1
+" Green = 2
+" Yellow = 3
+" Blue = 4
+" Magenta = 5
+" Cyan = 6
+" White = 7 = 231
+" =============================
+" Available attributes (some of them can be combined):
+" =============================
+" bold
+" underline
+" reverse or inverse
+" standout
+" italic (on unsupported systems becomes reverse)
+" none
+
+
+" =============================
+" export TERM=xterm-256color (in your .bashrc or .zshrc)
+" =============================
+" Vifm supports 256 colors you can use color numbers 0-255
+" (requires properly set up terminal: set your TERM environment variable
+" (directly or using resources) to some color terminal name (e.g.
+" xterm-256color) from /usr/lib/terminfo/; you can check current number
+" of colors in your terminal with tput colors command)
+
+
+" =============================
+" Explanation
+" =============================
+" highlight group cterm=attrs ctermfg=foreground_color ctermbg=background_color
+
+
+" =============================
+" Color Scheme
+" =============================
+highlight clear
+
+highlight   SuggestBox   cterm=none                ctermfg=24    ctermbg=255
+highlight   Win          cterm=none                ctermfg=238   ctermbg=255
+highlight   Directory    cterm=bold                ctermfg=25    ctermbg=255
+highlight   Link         cterm=none                ctermfg=27    ctermbg=255
+
+highlight   BrokenLink   cterm=bold                ctermfg=196   ctermbg=255
+highlight   Socket       cterm=bold                ctermfg=24    ctermbg=251
+highlight   Device       cterm=none                ctermfg=57    ctermbg=255
+
+highlight   Fifo         cterm=none                ctermfg=24    ctermbg=255
+highlight   Executable   cterm=none                ctermfg=125   ctermbg=255
+highlight   Selected     cterm=none                ctermfg=16    ctermbg=154
+
+highlight   CurrLine     cterm=reverse             ctermfg=-1    ctermbg=-1 " none 238 254
+highlight   TopLineSel   cterm=none                ctermfg=255   ctermbg=31
+highlight   TopLine      cterm=none                ctermfg=255   ctermbg=24
+"highlight  TopLineSel   cterm=none                ctermfg=240   ctermbg=254
+
+highlight   StatusLine   cterm=none                ctermfg=255   ctermbg=24
+highlight   WildMenu     cterm=none                ctermfg=255   ctermbg=31
+highlight   CmdLine      cterm=none                ctermfg=255   ctermbg=24
+
+highlight   ErrorMsg     cterm=bold                ctermfg=16    ctermbg=166
+highlight   Border       cterm=none                ctermfg=255   ctermbg=255 
