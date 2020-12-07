@@ -1,0 +1,57 @@
+" sandy
+" Author: Nando, based on colorscheme snowhite by Jochen Schweizer
+
+" xterm color customization:
+"
+" ! regular (not bold) red
+" XTerm*color1: #ff3030
+" ! regular (not bold) green
+" XTerm*color2: #70dd70
+" ! regular (not bold) yellow
+" XTerm*color3: #f0f000
+" ! regular (not bold) blue
+" XTerm*color4: #6060dd
+" ! bold red
+" XTerm*color9: #ff8080
+" ! bold green
+" XTerm*color10: #20dd20
+" ! bold yellow
+" XTerm*color11: #e0e000
+" ! bold blue
+" XTerm*color12: #a8a8ff
+
+
+highlight clear
+
+highlight   OtherLine    cterm=reverse             ctermfg=234   ctermbg=white
+highlight   SuggestBox   cterm=none                ctermfg=16    ctermbg=231
+highlight   Win          cterm=none                ctermfg=16    ctermbg=230
+highlight   Directory    cterm=bold                ctermfg=16    ctermbg=default
+highlight   Link         cterm=none                ctermfg=blue  ctermbg=default
+
+highlight   BrokenLink   cterm=bold                ctermfg=196   ctermbg=default
+highlight   Socket       cterm=none                ctermfg=16    ctermbg=default
+highlight   Device       cterm=none                ctermfg=16    ctermbg=default
+
+highlight   Fifo         cterm=none                ctermfg=16    ctermbg=default
+highlight   Executable   cterm=none                ctermfg=red   ctermbg=default
+highlight   Selected     cterm=none                ctermfg=208   ctermbg=default
+
+highlight   CurrLine     cterm=none                ctermfg=white ctermbg=LightCyan
+highlight   TopLine      cterm=none                ctermfg=16    ctermbg=255
+highlight   TopLineSel   cterm=none                ctermfg=231   ctermbg=blue
+
+highlight   StatusLine   cterm=bold                ctermfg=16    ctermbg=255
+highlight   WildMenu     cterm=underline,reverse   ctermfg=16    ctermbg=default
+highlight   CmdLine      cterm=none                ctermfg=black ctermbg=white
+
+highlight   ErrorMsg     cterm=bold                ctermfg=196   ctermbg=default
+highlight   Border       cterm=none                ctermfg=16    ctermbg=255
+
+highlight   AuxWin       cterm=none                ctermfg=default ctermbg=229
+highlight   JobLine      cterm=bold                ctermfg=black   ctermbg=white
+highlight   CmpMismatch  cterm=bold                ctermfg=white   ctermbg=red
+
+" executables
+highlight {*.sh,*.bash,*.bat,*.btm,*.cmd,*.com,*.dll,*.exe,*.run,*.msu,*.msi}
+        \ cterm=none ctermfg=red ctermbg=default
