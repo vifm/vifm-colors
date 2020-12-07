@@ -19,6 +19,7 @@ Various colorschemes for [vifm](https://vifm.info/):
 - palenight (by mroavi)
 - ph (by pihao)
 - reicheltd-light (by reicheltd)
+- sandy (by nandox)
 - semidarkdesert (by clausED)
 - snowwhite (by durcheinandr)
 - solarized-dark
