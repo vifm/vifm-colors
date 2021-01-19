@@ -1,26 +1,26 @@
 " mimicking midnight commander
-" by Petteri Knihti
+" by Petteri Knihti, update by Jose Riha
 
 highlight clear
 
 highlight Win         cterm=none    ctermfg=white    ctermbg=blue
- 
+
 highlight CurrLine    cterm=none    ctermfg=black    ctermbg=cyan
 highlight Selected    cterm=bold    ctermfg=yellow   ctermbg=default
- 
-highlight TopLine     cterm=none    ctermfg=black    ctermbg=cyan
-highlight TopLineSel  cterm=bold    ctermfg=yellow   ctermbg=cyan
+
+highlight TopLine     cterm=none    ctermfg=white    ctermbg=blue
+highlight TopLineSel  cterm=none    ctermfg=black    ctermbg=white
 highlight StatusLine  cterm=none    ctermfg=black    ctermbg=cyan
 highlight Border      cterm=none    ctermfg=none     ctermbg=blue
- 
+
 highlight WildMenu    cterm=reverse ctermfg=black    ctermbg=white
 highlight CmdLine     cterm=none    ctermfg=white    ctermbg=black
 highlight ErrorMsg    cterm=none    ctermfg=red      ctermbg=black
- 
-highlight Directory   cterm=bold    ctermfg=cyan     ctermbg=default
-highlight Link        cterm=bold    ctermfg=yellow   ctermbg=default
-highlight BrokenLink  cterm=bold    ctermfg=red      ctermbg=default
-highlight Socket      cterm=bold    ctermfg=magenta  ctermbg=default
-highlight Device      cterm=bold    ctermfg=red      ctermbg=default
-highlight Fifo        cterm=bold    ctermfg=cyan     ctermbg=default
-highlight Executable  cterm=bold    ctermfg=green    ctermbg=default
+
+highlight Directory   cterm=none    ctermfg=lightwhite    ctermbg=default
+highlight Link        cterm=none    ctermfg=white         ctermbg=default
+highlight BrokenLink  cterm=none    ctermfg=lightred      ctermbg=default
+highlight Socket      cterm=none    ctermfg=lightmagenta  ctermbg=default
+highlight Device      cterm=none    ctermfg=lightmagenta  ctermbg=default
+highlight Fifo        cterm=none    ctermfg=black         ctermbg=default
+highlight Executable  cterm=none    ctermfg=lightgreen    ctermbg=default
