@@ -18,6 +18,8 @@ Various colorschemes for [vifm](https://vifm.info/):
 - onedark (by mroavi)
 - palenight (by mroavi)
 - ph (by pihao)
+- papercolor-dark (by pmilosev)
+- papercolor-light (by pmilosev)
 - reicheltd-light (by reicheltd)
 - sandy (by nandox)
 - semidarkdesert (by clausED)
