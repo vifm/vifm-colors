@@ -1,0 +1,39 @@
+"
+" Ansa theme for vifm
+"
+hi clear
+
+" UI elements
+hi Border        cterm=none      ctermfg=235       ctermbg=0
+hi CmdLine       cterm=none      ctermfg=250       ctermbg=0
+hi CurrLine      cterm=none      ctermfg=default   ctermbg=236
+hi ErrorMsg      cterm=italic    ctermfg=9         ctermbg=52
+hi JobLine       cterm=none      ctermfg=220       ctermbg=1
+hi LineNr        cterm=none      ctermfg=237       ctermbg=0
+hi OtherLine     cterm=none      ctermfg=default   ctermbg=234
+hi Selected      cterm=none      ctermfg=default   ctermbg=17
+hi StatusLine    cterm=none      ctermfg=243       ctermbg=235
+hi SuggestBox    cterm=none      ctermfg=243       ctermbg=0
+hi TopLine       cterm=none      ctermfg=239       ctermbg=235
+hi TopLineSel    cterm=none      ctermfg=248       ctermbg=235
+hi WildMenu      cterm=none      ctermfg=254       ctermbg=237
+hi Win           cterm=none      ctermfg=249       ctermbg=0
+
+" Filetypes
+hi BrokenLink    cterm=italic    ctermfg=9         ctermbg=52
+hi CmpMismatch   cterm=italic    ctermfg=9         ctermbg=52
+hi Device        cterm=italic    ctermfg=1         ctermbg=default
+hi Directory     cterm=none      ctermfg=12        ctermbg=default
+hi Executable    cterm=none      ctermfg=2         ctermbg=default
+hi Fifo          cterm=italic    ctermfg=14        ctermbg=default
+hi HardLink      cterm=bold      ctermfg=3         ctermbg=default
+hi Link          cterm=italic    ctermfg=3         ctermbg=default
+hi Socket        cterm=italic    ctermfg=13        ctermbg=default
+
+if $USER == 'root'
+    hi StatusLine ctermbg=52 ctermfg=248
+    hi TopLineSel ctermbg=52 ctermfg=252
+    hi TopLine    ctermbg=52 ctermfg=245
+endif
+
+finish
