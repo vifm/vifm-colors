@@ -1,6 +1,7 @@
 # vifm-colors
 
 Various colorschemes for [vifm](https://vifm.info/):
+- ansa (by savchenko)
 - astrell (by astrell)
 - darkdesert (by langner)
 - Default
