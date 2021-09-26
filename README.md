@@ -15,6 +15,7 @@ Various colorschemes for [vifm](https://vifm.info/):
 - matrix
 - mc-like (by Petteri Knihti)
 - molokai (by Miguel Madrid Mencía)
+- monochrome (by qsmodo)
 - near-default
 - onedark (by mroavi)
 - palenight (by mroavi)
