@@ -1,4 +1,5 @@
 # vifm-colors
+[![Packaging status](https://repology.org/badge/tiny-repos/vifm-colors.svg)](https://repology.org/project/vifm-colors/versions)
 
 Various colorschemes for [vifm](https://vifm.info/):
 - ansa (by savchenko)
