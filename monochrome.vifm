@@ -1,0 +1,29 @@
+"Released in public domain
+
+hi  clear
+
+hi  Win         cterm=none     ctermfg=-1  ctermbg=-1
+
+hi  Directory   cterm=none     ctermfg=-1  ctermbg=-1
+hi  Executable  cterm=none     ctermfg=-1  ctermbg=-1
+hi  Link        cterm=none     ctermfg=-1  ctermbg=-1
+hi  BrokenLink  cterm=none     ctermfg=-1  ctermbg=-1
+hi  HardLink    cterm=none     ctermfg=-1  ctermbg=-1
+hi  Socket      cterm=none     ctermfg=-1  ctermbg=-1
+hi  Device      cterm=none     ctermfg=-1  ctermbg=-1
+hi  Fifo        cterm=none     ctermfg=-1  ctermbg=-1
+
+hi  LineNr      cterm=none     ctermfg=-1  ctermbg=-1
+hi  Selected    cterm=reverse  ctermfg=-1  ctermbg=-1
+hi  CurrLine    cterm=reverse  ctermfg=-1  ctermbg=-1
+hi  OtherLine   cterm=none     ctermfg=-1  ctermbg=-1
+hi  TopLine     cterm=reverse  ctermfg=-1  ctermbg=-1
+hi  TopLineSel  cterm=reverse  ctermfg=-1  ctermbg=-1
+hi  StatusLine  cterm=reverse  ctermfg=-1  ctermbg=-1
+hi  TabLine     cterm=none     ctermfg=-1  ctermbg=-1
+hi  TabLineSel  cterm=reverse  ctermfg=-1  ctermbg=-1
+hi  WildMenu    cterm=reverse  ctermfg=-1  ctermbg=-1
+hi  CmdLine     cterm=none     ctermfg=-1  ctermbg=-1
+hi  ErrorMsg    cterm=reverse  ctermfg=-1  ctermbg=-1
+hi  Border      cterm=none     ctermfg=-1  ctermbg=-1
+hi  AuxWin      cterm=none     ctermfg=-1  ctermbg=-1
