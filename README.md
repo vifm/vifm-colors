@@ -4,6 +4,7 @@
 Various colorschemes for [vifm](https://vifm.info/):
 - ansa (by savchenko)
 - astrell (by astrell)
+- crown_24bit (by hombrey)
 - darkdesert (by langner)
 - Default
 - desert
