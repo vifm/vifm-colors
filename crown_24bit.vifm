@@ -1,0 +1,29 @@
+" crown vifm color scheme for 256 and 24-bit colors
+
+" Reset all styles first
+highlight clear
+
+highlight Border	cterm=none	ctermfg=235	ctermbg=None guifg=#262626  guibg=None
+
+highlight TopLine	cterm=none	ctermfg=247	ctermbg=232  guifg=#9e9e9e  guibg=#080808
+highlight TopLineSel	cterm=inverse	ctermfg=236	ctermbg=254 guifg=#f5dabf guibg=#2a2016
+
+
+highlight Win		cterm=none	ctermfg=188	ctermbg=None guifg=#d7d7d7 guibg=None
+highlight Directory	cterm=bold	ctermfg=255	ctermbg=None gui=bold guifg=#f5dabf guibg=None
+highlight CurrLine	cterm=inverse	ctermfg=137	ctermbg=232 gui=inverse guifg=#af875f  guibg=#080808
+highlight OtherLine	cterm=none	ctermfg=Default ctermbg=None guifg=Default  guibg=None
+highlight Selected	cterm=none	ctermfg=None ctermbg=238 guifg=None  guibg=#444444
+
+highlight JobLine	cterm=bold	ctermfg=116	ctermbg=238 guifg=#87d7d7  guibg=#444444
+highlight StatusLine	cterm=bold	ctermfg=251	ctermbg=233 guifg=#c6c6c6  guibg=#121212
+highlight ErrorMsg	cterm=bold	ctermfg=115	ctermbg=237 guifg=#87d7af  guibg=#3a3a3a
+highlight WildMenu	cterm=bold	ctermfg=235	ctermbg=144 guifg=#262626  guibg=#afafff
+highlight CmdLine	cterm=none	ctermfg=252	ctermbg=None guifg=#d0d0d0  guibg=None
+
+highlight Executable	cterm=none	ctermfg=131	ctermbg=None guifg=#af5f5f guibg=None
+highlight Link		cterm=none	ctermfg=142	ctermbg=None guifg=#afaf00 guibg=None
+highlight BrokenLink	cterm=none	ctermfg=174	ctermbg=None guifg=#d787d7 guibg=None
+highlight Device	cterm=none	ctermfg=228	ctermbg=None guifg=#ffff87 guibg=None
+highlight Fifo		cterm=none	ctermfg=109	ctermbg=None guifg=#87afaf guibg=None
+highlight Socket	cterm=none	ctermfg=110	ctermbg=None guifg=#87afd7 guibg=None
