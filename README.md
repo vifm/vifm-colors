@@ -19,6 +19,7 @@ Various colorschemes for [vifm](https://vifm.info/):
 - molokai (by Miguel Madrid Mencía)
 - monochrome (by qsmodo)
 - near-default
+- nord (by novores)
 - onedark (by mroavi)
 - palenight (by mroavi)
 - ph (by pihao)
