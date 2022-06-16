@@ -1,0 +1,21 @@
+" Fargo theme for vifm
+
+highlight clear
+
+highlight Win cterm=bold ctermfg=118 ctermbg=0
+highlight Directory cterm=bold ctermfg=15 ctermbg=33
+highlight Link cterm=bold ctermfg=yellow ctermbg=0
+highlight BrokenLink cterm=bold ctermfg=red ctermbg=none
+highlight Socket cterm=bold ctermfg=magenta ctermbg=black
+highlight Device cterm=bold ctermfg=red ctermbg=black
+highlight Fifo cterm=bold ctermfg=cyan ctermbg=none
+highlight Executable cterm=bold ctermfg=118 ctermbg=0
+highlight Selected cterm=bold ctermfg=0 ctermbg=34
+highlight CurrLine cterm=bold ctermfg=0 ctermbg=199
+highlight TopLine cterm=bold ctermfg=118 ctermbg=0
+highlight TopLineSel cterm=bold ctermfg=0 ctermbg=118
+highlight StatusLine cterm=bold ctermfg=15 ctermbg=57
+highlight WildMenu cterm=bold ctermfg=57 ctermbg=15
+highlight CmdLine cterm=none ctermfg=white ctermbg=0
+highlight ErrorMsg cterm=none ctermfg=15 ctermbg=21
+highlight Border cterm=none ctermfg=0 ctermbg=0
