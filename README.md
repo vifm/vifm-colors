@@ -10,6 +10,7 @@ Various colorschemes for [vifm](https://vifm.info/):
 - desert
 - dracula (by EgZvor)
 - dwmlight (by satsaeid)
+- fargo (by shlomi-aknin)
 - g80
 - gruvbox (by laur89)
 - iceberg (by puven12)
