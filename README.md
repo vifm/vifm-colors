@@ -24,6 +24,7 @@ Various colorschemes for [vifm](https://vifm.info/):
 - onedark (by mroavi)
 - palenight (by mroavi)
 - ph (by pihao)
+- paper (by s6muel)
 - papercolor-dark (by pmilosev)
 - papercolor-light (by pmilosev)
 - reicheltd-light (by reicheltd)
