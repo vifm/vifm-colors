@@ -1,0 +1,30 @@
+" A true dark theme. For Vifm. Duh.
+" by bratpeki (@GitHub)
+" https://github.com/bratpeki/truedark-vifm
+
+highlight clear
+
+highlight Border     ctermfg=238 ctermbg=248 cterm=none
+highlight BrokenLink ctermfg=9 ctermbg=0 cterm=none
+highlight CmdLine    ctermfg=251 ctermbg=0
+highlight CurrLine   ctermfg=none ctermbg=236 cterm=bold
+highlight Device     ctermfg=202 ctermbg=0 cterm=none
+highlight Directory  ctermfg=93 ctermbg=0 cterm=none
+highlight ErrorMsg   ctermfg=9 ctermbg=black cterm=bold
+highlight Executable ctermfg=51 ctermbg=0 cterm=none
+highlight Fifo       ctermfg=51 ctermbg=0 cterm=none
+highlight HardLink   ctermfg=130 ctermbg=0 cterm=none
+highlight LineNr     ctermfg=246 ctermbg=0 cterm=bold
+highlight Link       ctermfg=214 ctermbg=0 cterm=none
+highlight OtherLine  ctermfg=241 ctermbg=234 cterm=italic
+highlight OtherWin   ctermfg=241 ctermbg=0 cterm=italic
+highlight Selected   ctermfg=118 ctermbg=0 cterm=bold
+highlight Socket     ctermfg=200 ctermbg=0 cterm=none
+highlight StatusLine ctermfg=238 ctermbg=248 cterm=none
+highlight SuggestBox ctermfg=118 ctermbg=0 cterm=bold
+highlight TabLine    ctermfg=238 ctermbg=0 cterm=none
+highlight TabLineSel ctermfg=254 ctermbg=0 cterm=bold
+highlight TopLine    ctermfg=238 ctermbg=248 cterm=none
+highlight TopLineSel ctermfg=238 ctermbg=248 cterm=none
+highlight WildMenu   ctermfg=7 ctermbg=0 cterm=none
+highlight Win        ctermfg=251 ctermbg=0 cterm=none
