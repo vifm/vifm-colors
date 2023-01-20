@@ -33,6 +33,7 @@ Various colorschemes for [vifm](https://vifm.info/):
 - snowwhite (by durcheinandr)
 - solarized-dark
 - solarized-light (by ayroblu)
+- truedark (by bratpeki)
 - zenburn
 - zenburn_1 (by frgm)
 
