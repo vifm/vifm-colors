@@ -2,6 +2,7 @@
 [![Packaging status](https://repology.org/badge/tiny-repos/vifm-colors.svg)](https://repology.org/project/vifm-colors/versions)
 
 Various colorschemes for [vifm](https://vifm.info/):
+- afterglow (by romic)
 - ansa (by savchenko)
 - astrell (by astrell)
 - crown_24bit (by hombrey)
