@@ -24,7 +24,7 @@ highlight  Fifo        cterm=bold     ctermfg=105      ctermbg=default
 highlight  Executable  cterm=bold     ctermfg=23       ctermbg=default
 highlight  Selected    cterm=bold     ctermfg=default  ctermbg=182
 highlight  CurrLine    cterm=bold     ctermfg=238      ctermbg=153
-highlight  OtherLine   cterm=default  ctermfg=default  ctermbg=default
+highlight  OtherLine   cterm=none     ctermfg=default  ctermbg=default
 
 " overwrite some colors for root user
 if $USER == 'root'
