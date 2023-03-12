@@ -1,0 +1,44 @@
+" afterglow
+" by danilo-augusto
+"
+" afterglow color scheme converted from the one for vim
+" by romic
+
+" Reset all styles first
+highlight clear
+
+highlight Win cterm=none ctermfg=253 ctermbg=default
+
+highlight TabLine cterm=none ctermfg=default ctermbg=239
+highlight TabLineSel cterm=none ctermfg=default ctermbg=235
+
+highlight TopLine	cterm=none ctermfg=243 ctermbg=default
+highlight TopLineSel cterm=none ctermfg=253 ctermbg=default
+
+highlight JobLine cterm=bold,inverse ctermfg=238 ctermbg=179
+highlight StatusLine cterm=bold,inverse ctermfg=238 ctermbg=179
+
+highlight Border cterm=none ctermfg=default ctermbg=default
+
+highlight CurrLine ctermfg=default ctermbg=default cterm=inverse
+highlight OtherLine ctermfg=default ctermbg=default cterm=none
+
+highlight LineNr ctermfg=243 ctermbg=default cterm=inverse
+
+highlight Selected cterm=none ctermfg=default ctermbg=60
+
+highlight CmpMismatch cterm=none ctermfg=179 ctermbg=225
+
+highlight SuggestBox cterm=none ctermfg=253 ctermbg=default
+highlight WildMenu cterm=none ctermfg=179 ctermbg=232
+
+highlight CmdLine cterm=none ctermfg=253 ctermbg=default
+highlight ErrorMsg ctermfg=Red ctermbg=default cterm=none
+
+highlight Directory cterm=none ctermfg=179 ctermbg=default
+highlight Executable cterm=none ctermfg=108 ctermbg=default
+highlight Socket cterm=none ctermfg=67 ctermbg=default
+highlight Device cterm=none ctermfg=67 ctermbg=default
+highlight Fifo cterm=none ctermfg=179 ctermbg=default
+highlight Link cterm=none ctermfg=139 ctermbg=default
+highlight BrokenLink cterm=none ctermfg=131 ctermbg=default
