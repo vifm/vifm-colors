@@ -1,0 +1,46 @@
+" vim: filetype=vifm :
+
+" This is based on vim's retrobox color scheme which is similar to gruvbox
+
+" This file last updated: 26 February, 2024
+
+hi clear
+
+hi JobLine       cterm=bold          ctermfg=234      ctermbg=142
+
+hi SuggestBox    cterm=bold          ctermfg=232      ctermbg=109
+
+hi StatusLine    cterm=bold          ctermfg=187      ctermbg=239
+hi WildMenu      cterm=bold,reverse  ctermfg=109      ctermbg=default
+
+hi Border        cterm=none          ctermfg=187      ctermbg=234
+
+hi CmdLine       cterm=bold          ctermfg=187      ctermbg=234
+hi ErrorMsg      cterm=bold          ctermfg=234      ctermbg=009
+
+hi Win           cterm=none          ctermfg=187      ctermbg=234
+hi OtherWin      cterm=none          ctermfg=default  ctermbg=default
+hi AuxWin        cterm=none          ctermfg=default  ctermbg=default
+hi OddLine                           ctermfg=default  ctermbg=default
+hi Directory     cterm=bold          ctermfg=121      ctermbg=default
+hi Link          cterm=bold          ctermfg=229      ctermbg=default
+hi BrokenLink    cterm=bold          ctermfg=209      ctermbg=default
+hi HardLink      cterm=bold          ctermfg=221      ctermbg=default
+hi Socket        cterm=bold,reverse  ctermfg=182      ctermbg=default
+hi Device        cterm=bold,reverse  ctermfg=204      ctermbg=default
+hi Fifo          cterm=bold,reverse  ctermfg=045      ctermbg=default
+hi Executable    cterm=bold          ctermfg=119      ctermbg=default
+hi CmpMismatch   cterm=bold,reverse  ctermfg=009      ctermbg=default
+hi CmpUnmatched  cterm=bold,reverse  ctermfg=142      ctermbg=default
+hi CmpBlank                          ctermfg=default  ctermbg=default
+hi Selected      cterm=bold,reverse  ctermfg=109      ctermbg=default
+hi CurrLine      cterm=bold          ctermfg=default  ctermbg=236
+hi OtherLine     cterm=none          ctermfg=default  ctermbg=233
+hi LineNr                            ctermfg=243      ctermbg=default
+
+hi Topline       cterm=none          ctermfg=187      ctermbg=239
+hi TopLineSel    cterm=bold          ctermfg=230      ctermbg=default
+
+hi Tabline       cterm=none          ctermfg=187      ctermbg=default
+hi TabLineSel    cterm=bold          ctermfg=230      ctermbg=239
+
