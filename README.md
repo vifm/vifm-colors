@@ -29,6 +29,7 @@ Various colorschemes for [vifm](https://vifm.info/):
 - papercolor-dark (by pmilosev)
 - papercolor-light (by pmilosev)
 - reicheltd-light (by reicheltd)
+- retrobox (by dacyberduck)
 - sandy (by nandox)
 - semidarkdesert (by clausED)
 - snowwhite (by durcheinandr)
